@@ -1,0 +1,11 @@
+.HomeworksItem-Work_Status_wait {
+    background-color: lightblue;
+}
+
+.HomeworksItem-Work_Status_inProgress {
+    background-color: lightgoldenrodyellow;
+}
+
+.HomeworksItem-Work_Status_accepted {
+    background-color: lightseagreen;
+}
