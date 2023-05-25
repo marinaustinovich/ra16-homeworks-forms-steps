@@ -1,0 +1,36 @@
+.StepsForm {
+    display: flex;
+}
+
+.StepsForm-Section {
+    display: flex;
+    flex-direction: column;
+}
+
+.StepsForm-Input {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.StepsForm-Button {
+    margin-top: 2.25rem;
+    width: 90px;
+    height: 42px;
+}
+
+.StepsForm-Input:focus {
+    border: none;
+    outline: none;
+}
+
+.StepsForm-Input::placeholder {
+    font-size: 10px;
+    color: grey;
+}
+
+.Error {
+    position: absolute;
+    top: 5.5rem;
+    left: 1.6rem;
+    color: red;
+}
