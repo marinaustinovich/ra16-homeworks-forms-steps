@@ -1,13 +1,10 @@
-import './App.css';
-import 'mini.css';
-import FormFiled from './components/FormField/FormFiled';
+import "./App.css";
+import "mini.css";
+import { WorkoutCounter } from "./components";
 
-function App() {
-  return (
-    <div className='container'>
-      <FormFiled />
-    </div>
-  );
-}
 
-export default App;
+export const App = () => (
+  <div className="container">
+    <WorkoutCounter />
+  </div>
+);
